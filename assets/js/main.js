@@ -3,7 +3,8 @@ const hour = document.getElementById('clock-hour'),
     minutes = document.getElementById('clock-minutes')
 
 const clock = () => {
-
+    // We get the Date object
+    let date = new Date()
 }
 setInterval(clock, 1000) // (Updates every 1s) 1000 = 1s 
 

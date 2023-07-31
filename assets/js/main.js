@@ -46,5 +46,6 @@ const clockText = () => {
 
     // We add the corresponding dates
     dateDayWeek.innerHTML = `${daysWeek[dayWeek]}`
+    dateMonth.innerHTML = `${months[month]}`
 }
 setInterval(clockText, 1000) // (Updates every 1s) 1000 = 1s

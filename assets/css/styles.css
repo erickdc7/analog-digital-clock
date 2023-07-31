@@ -83,6 +83,12 @@ body {
   z-index: 2;
 }
 
+.clock__hour {
+  width: 2px;
+  height: 25px;
+  background-color: var(--red-color);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 

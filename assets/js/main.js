@@ -14,6 +14,7 @@ const clock = () => {
 
     // We add a rotation to the elements
     hour.style.transform = `rotateZ(${hh + mm / 12}deg)`
+    minutes.style.transform = `rotateZ(${mm}deg)`
 }
 setInterval(clock, 1000) // (Updates every 1s) 1000 = 1s 
 

@@ -118,6 +118,15 @@ body {
   font-weight: 500;
 }
 
+.clock__month,
+.clock__day,
+.clock__year,
+.clock__text-hour,
+.clock__text-minutes {
+  font-size: var(--h2-font-size);
+  font-weight: 600;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 

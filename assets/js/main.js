@@ -43,5 +43,8 @@ const clockText = () => {
     // We get the days of the week and the months. (First day of the week Sunday)
     let daysWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
     let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+    // We add the corresponding dates
+    dateDayWeek.innerHTML = `${daysWeek[dayWeek]}`
 }
 setInterval(clockText, 1000) // (Updates every 1s) 1000 = 1s

@@ -103,6 +103,14 @@ body {
   transform-origin: bottom;
 }
 
+.clock__date {
+  display: grid;
+  row-gap: 0.25rem;
+  border-bottom: 1px solid var(--text-color-light);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 

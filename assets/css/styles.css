@@ -67,6 +67,7 @@ body {
   width: 100px;
   height: 100px;
   border: 3px solid var(--black-color);
+  background-color: var(--container-color);
   border-radius: 50%;
   box-shadow: inset 2px 2px 8px hsla(0, 0%, 0%, 0.4);
   display: flex;

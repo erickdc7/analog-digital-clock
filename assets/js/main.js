@@ -11,6 +11,9 @@ const clock = () => {
     // (Current minute) / 60(minutes) * 360(deg circle)
     let hh = date.getHours() / 12 * 360,
         mm = date.getMinutes() / 60 * 360
+
+    // We add a rotation to the elements
+    hour.style.transform = `rotateZ(${hh + mm / 12}deg)`
 }
 setInterval(clock, 1000) // (Updates every 1s) 1000 = 1s 
 

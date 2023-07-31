@@ -28,6 +28,7 @@ const dateDayWeek = document.getElementById('date-day-week'),
     textAmPm = document.getElementById('text-ampm')
 
 const clockText = () => {
-
+    // We get the Date object
+    let date = new Date()
 }
 setInterval(clockText, 1000) // (Updates every 1s) 1000 = 1s

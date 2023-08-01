@@ -184,4 +184,9 @@ body {
   .clock__date {
     margin-bottom: 1.5rem;
   }
+
+  .clock__day-week,
+  .clock__text-ampm {
+    font-size: var(--h2-font-size);
+  }
 }

@@ -63,6 +63,11 @@ const clockText = () => {
         hh = 12
     }
 
+    // If hours is less than 10, add a 0 (01,02,03...09)
+    if (hh < 10) {
+        hh = `0${hh}`
+    }
+
     textHour.innerHTML = `${hh}`
 }
 setInterval(clockText, 1000) // (Updates every 1s) 1000 = 1s

@@ -68,7 +68,7 @@ const clockText = () => {
         hh = `0${hh}`
     }
 
-    textHour.innerHTML = `${hh}`
+    textHour.innerHTML = `${hh}:`
 
     textMinutes.innerHTML = mm
 }

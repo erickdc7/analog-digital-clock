@@ -142,6 +142,11 @@ body {
 
 /* For medium devices */
 @media screen and (min-width: 450px) {
+  .clock {
+    width: 380px;
+    height: 190px;
+    column-gap: 2rem;
+  }
 }
 
 /* For large devices */

@@ -62,5 +62,7 @@ const clockText = () => {
     if (hh == 0) {
         hh = 12
     }
+
+    textHour.innerHTML = `${hh}`
 }
 setInterval(clockText, 1000) // (Updates every 1s) 1000 = 1s

@@ -57,5 +57,10 @@ const clockText = () => {
     } else {
         ampm = 'AM'
     }
+
+    // When it is 0 hours (early morning), we tell it to change to 12 hours
+    if (hh == 0) {
+        hh = 12
+    }
 }
 setInterval(clockText, 1000) // (Updates every 1s) 1000 = 1s

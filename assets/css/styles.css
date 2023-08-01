@@ -180,4 +180,8 @@ body {
     width: 3px;
     height: 40px;
   }
+
+  .clock__date {
+    margin-bottom: 1.5rem;
+  }
 }

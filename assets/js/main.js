@@ -58,6 +58,8 @@ const clockText = () => {
         ampm = 'AM'
     }
 
+    textAmPm.innerHTML = ampm
+
     // When it is 0 hours (early morning), we tell it to change to 12 hours
     if (hh == 0) {
         hh = 12

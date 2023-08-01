@@ -130,6 +130,14 @@ body {
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 340px) {
+  .clock {
+    width: 176px;
+    height: 328px;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    text-align: center;
+    padding-left: 0.8rem;
+  }
 }
 
 /* For medium devices */

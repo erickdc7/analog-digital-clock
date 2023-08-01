@@ -49,5 +49,13 @@ const clockText = () => {
     dateMonth.innerHTML = `${months[month]}`
     dateDay.innerHTML = `${day}, `
     dateYear.innerHTML = year
+
+    // If hours is greater than 12 (afternoon), we subtract -12, so that it starts at 1 (afternoon)
+    if (hh >= 12) {
+        hh = hh - 12
+        ampm = 'PM'
+    } else {
+        ampm = 'AM'
+    }
 }
 setInterval(clockText, 1000) // (Updates every 1s) 1000 = 1s
